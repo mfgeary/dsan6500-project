@@ -25,3 +25,6 @@ $RECYCLE.BIN/
 
 # Our data folder containing our independently downloaded data
 data/
+
+# ignore the .pth files (size is too large)
+notebook/Shawn/output/
