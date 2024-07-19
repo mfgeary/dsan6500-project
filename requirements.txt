@@ -1,0 +1,9 @@
+# python==3.10.13
+conda==24.1.1
+ipython==8.25.0
+matplotlib==3.8.4
+numpy==1.26.4
+opencv==4.10.0
+pandas==2.2.2
+pydicom==2.4.4
+tqdm==4.66.4
