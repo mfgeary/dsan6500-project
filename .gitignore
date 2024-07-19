@@ -31,3 +31,5 @@ notebook/Shawn/output/
 
 # ignore Mac stuff
 .DS_Store
+
+__pycache__/
