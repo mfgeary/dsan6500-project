@@ -6,6 +6,9 @@ DSAN6500 Final Project
 - [Marion Bauman](https://github.com/mfgeary)
 - [Shawn Xu](https://github.com/shawnhxu)
 
+## Final Written Paper
+[Final Paper](https://github.com/mfgeary/dsan6500-project/tree/main/report)
+
 ## Dataset
 - [RSNA 2024 Lumbar Spine Degenerative Classification - Kaggle Competition](https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/overview)
 
