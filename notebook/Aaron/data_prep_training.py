@@ -20,7 +20,7 @@ class CreateDataset(Dataset):
 
         if self.transform:
             img = self.transform(img)
-
+            
         return img, label
 
     def __len__(self):
@@ -58,7 +58,7 @@ def get_dataloaders(root_path, batch_size=500, img_size=(100, 100), train_ratio=
     test_size = len(data) - train_size - val_size
 
     train, val, test = random_split(data, [train_size, val_size, test_size])
-
+    
     train_loader = DataLoader(train, batch_size=batch_size, shuffle=True)
     val_loader = DataLoader(val, batch_size=batch_size, shuffle=True)
     test_loader = DataLoader(test, batch_size=batch_size, shuffle=True)
